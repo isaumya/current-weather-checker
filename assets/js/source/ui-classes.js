@@ -1,4 +1,4 @@
-class UI {
+export default class UI {
 	constructor() {
 		this.location = document.getElementById('w-location');
 		this.latLon = document.getElementById('w-lat-lon');

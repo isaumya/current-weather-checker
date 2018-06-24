@@ -1,3 +1,12 @@
+// Add the require statements of es6-promise polyfill & isomorphic-fetch to make sure after js compilation, the fetch works on old browsers like IE 11, 10.
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+
+// Import the classes from their respective files
+import LocStorage from './local-storage';
+import UI from './ui-classes';
+import Weather from './weather-api-classes';
+
 // Init Storage object
 const lStorage = new LocStorage;
 // Init weather object

@@ -1,4 +1,4 @@
-class LocStorage {
+export default class LocStorage {
 	constructor() {
 		this.city, this.countryCode;
 		this.defaultCity = 'Kolkata';
